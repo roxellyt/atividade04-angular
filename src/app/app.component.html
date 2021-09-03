@@ -1,14 +1,30 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<app-sobre></app-sobre>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
 
-<ul class="nav">
+<ul class="nav" style="text-align:center">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Página Inicial</a>
+    <a class="nav-link active" href="./sobre/sobre.component."
+      >Página Inicial</a
+    >
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Sobre</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Perfil do Github</a>
+    <a class="nav-link" href="#">Números</a>
   </li>
 </ul>
+<img
+  src="http://www.grupoalliance.com.br/wp-content/uploads/2018/08/tecnologia-e-marketing-por-que-aproximar-esses-setores-da-empresa.jpeg"
+  class="img-fluid"
+  alt="Responsive image"
+/>
+
+<h2>Sistemas para Internet e Números</h2>
+
+<div><button (click)="mudarNome()">clica</button>{{counter}}</div>
